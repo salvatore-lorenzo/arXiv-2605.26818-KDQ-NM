@@ -37,9 +37,9 @@ SZ = np.array([[1, 0], [0, -1]], dtype=complex)
 class CollisionParameters:
     """Physical parameters for the three-qubit collision model."""
 
-    omega_s: float = 1.0
-    omega_m: float = 1.0
-    omega_e: float = 1.0
+    omega_s: float = -1.0
+    omega_m: float = -1.0
+    omega_e: float = -1.0
     g_sm: float = 0.2
     g_me: float = 0.2
     tau_sm: float = 0.2
